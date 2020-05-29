@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Layout Preview: Red. On Device: Red -->
+    <!-- Layout Preview: Red. On Device:  Blue -->
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Layout Preview: Red. On Device: Blue -->
+    <!-- Layout Preview: Red. On Device: Red -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="50dp"
